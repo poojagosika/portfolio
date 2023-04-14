@@ -1,0 +1,28 @@
+.footer
+{
+    background-color: rgb(84, 84, 255);
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    color: white;
+}
+
+p
+{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding: 5px 0px;
+    
+}
+.footer-soc-ser
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-services
+{
+    padding: 40px;
+}
