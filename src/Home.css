@@ -1,0 +1,48 @@
+.profile
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    flex-wrap: wrap;
+    font-size: 24px;
+}
+
+.profile-details
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-details > p
+{
+    color: rgb(0, 0, 0);
+}
+
+.profile-details > .p3
+{
+    color: rgba(79, 79, 79, 0.717);
+}
+
+.profile-details span
+{
+    color: blue;
+}
+
+.profile-image
+{
+    display: flex;
+    justify-content: center;
+
+}
+.profile-image > img
+{
+    width: 370px;
+    align-items: center;
+    border: 3px double blue;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}

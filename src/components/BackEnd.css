@@ -1,0 +1,32 @@
+.back-end
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.back-end p
+{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.back-end i
+{
+    font-size: 48px;
+}
+
+.back-end .fa-node
+{
+    color: rgb(65, 255, 94);
+}
+
+.back-end .fa-square-js
+{
+    color: rgb(255, 234, 0);
+}

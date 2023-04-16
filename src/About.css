@@ -1,0 +1,20 @@
+.about-us
+{
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+}
+
+.about-us-heading
+{
+    font-size: 48px;
+    color: blue;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.about-us p
+{
+    text-align: center;
+}

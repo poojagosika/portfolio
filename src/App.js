@@ -9,6 +9,9 @@ import Footer from './Footer';
 import TechStack from './TechStack';
 import Projects from './Projects';
 import Experience from "./Experience";
+import { FrontEnd } from './components/FrontEnd';
+import { BackEnd } from './components/BackEnd';
+import { Others } from './components/Others';
 
 
 
@@ -16,16 +19,20 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Header/>
+        <Header/>
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/about" element={<About/>}></Route>
-          <Route path="/tech-stack" element={<TechStack/>}></Route>
-          <Route path="/projects" element={<Projects/>}></Route>
-          <Route path="/experience" element={<Experience/>}></Route>
-          <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/tech-stack" element={<TechStack/>}>
+            <Route path='/tech-stack/' element={<FrontEnd/>}/>
+            <Route path='/tech-stack/back-end' element={<BackEnd/>}/>
+            <Route path='/tech-stack/other-tech' element={<Others/>}/>
+          </Route>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/experience" element={<Experience/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
-      <Footer/>
+        <Footer/>
       </BrowserRouter>
     </>
   );
