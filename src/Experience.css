@@ -1,0 +1,36 @@
+.my-experience
+{
+    padding: 100px;
+}
+
+.my-experience > h2
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.experience
+{
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    background-color: blue;
+    width: 600px;
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    flex-wrap: wrap;
+    color: white;
+    margin: 20px auto;
+}
+
+.experience > p
+{
+    padding: 12px;
+}
+
+.experience > i
+{
+    cursor: pointer;
+    font-size: 16px;
+}

@@ -1,28 +1,23 @@
+
 ul
 {
     background-color: rgb(84, 84, 255);
     display: flex;
-    justify-content: space-evenly;
-    padding: 5px;
+    padding: 10px;
     flex-wrap: wrap;
+    color: white;
+    justify-content: flex-end;
 }
 i{
-    color: rgba(179, 179, 179, 0.758);
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: space-between; */
     padding-right: 5px;
 }
 li
 {
     margin: 5px;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(84, 84, 255);
     list-style: none;
-    background-color: rgb(255, 255, 255);
     border-radius: 4px;
-    padding: 5px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10px;
+    color: white;
 }

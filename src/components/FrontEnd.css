@@ -1,53 +1,50 @@
-.front-end
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    flex-wrap: wrap;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.front-end p
-{
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    text-align: center;
-    align-items: center;
+.container:hover {
+	cursor: pointer;
 }
 
-.front-end i
-{
-    font-size: 48px;
+.container img {
+	filter: grayscale();
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 6px solid whitesmoke;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
 }
 
-.front-end .fa-html5
-{
-    color: rgb(255, 132, 0);
+.container:hover img {
+	filter: none;
 }
 
-.front-end .fa-css3-alt
-{
-    color: rgb(0, 17, 255);
+.title {
+	font-family: "Dancing Script", cursive;
+	font-size: 3rem;
+	color: whitesmoke;
+	position: relative;
 }
 
-.front-end .fa-square-js
-{
-    color: rgb(255, 234, 0);
+.title::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
 }
 
-.front-end .fa-react
-{
-    color: rgb(0, 255, 242);
-}
-
-.front-end .fa-bootstrap
-{
-    color: rgb(64, 1, 100);
-}
-
-.front-end .fa-angular
-{
-    color: rgb(174, 0, 0);
+.container:hover .title::after {
+	width: 100%;
+	left: 0;
 }

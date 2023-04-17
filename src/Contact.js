@@ -1,8 +1,19 @@
+import "./Contact.css"
+
 const Contact = () => {
     return(
-        <h1>
-            This is Contact Page!
-        </h1>
+        <div className="contact">
+            <h2>Contact Me!</h2>
+            <form action="" className="my-from">
+                <label text="text">Full name</label>
+                <input type="text" placeholder="Enter Your Name"/>
+                <label text="text">Email</label>
+                <input type="text" placeholder="Enter Your Email"/>
+                <label text="text">Message</label>
+                <input type="text" placeholder="Enter Your Message" className="message-box"/>
+                <button className="button"><a href="mailto:pooja.gosika@gmail.com">Submit</a></button>
+            </form>
+        </div>
     )
 }
 
