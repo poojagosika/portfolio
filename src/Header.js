@@ -9,6 +9,9 @@ const Header = () => {
                 <Link to="/" style={{ textDecoration: 'none' }}>
                 <li><i class="fa-solid fa-house"></i>Home</li>
                 </Link>
+                <Link to="/home" style={{ textDecoration: 'none' }}>
+                <li><i class="fa-solid fa-house"></i>Home</li>
+                </Link>
                 <Link to="/about" style={{ textDecoration: 'none' }}>
                     <li><i class="fa-solid fa-address-card"></i>About Us</li>
                 </Link>
