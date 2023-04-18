@@ -6,9 +6,6 @@ const Header = () => {
     return(
         <>
             <ul className="navMenu">
-                <Link to="/" style={{ textDecoration: 'none' }}>
-                <li><i class="fa-solid fa-house"></i>Home</li>
-                </Link>
                 <Link to="/home" style={{ textDecoration: 'none' }}>
                 <li><i class="fa-solid fa-house"></i>Home</li>
                 </Link>
