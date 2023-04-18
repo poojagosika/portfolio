@@ -4,8 +4,8 @@ const Home = () => {
     return(
         <div className="profile">
             <div className="profile-details">
-                <p>Hello 🖖</p>
-                <p>I'm <span>Pooja Gosika,</span> Frontend Developer From India</p>
+                <p className='p1'>Hello 🖖</p>
+                <p className='p2'>I'm <span>Pooja Gosika,</span> Frontend Developer</p>
                 <p className='p3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Molestias aspernatur incidunt eligendi expedita doloribus maiores distinctio,
                     pariatur dolores deleniti dignissimos, harum autem ratione ad? Reprehenderit,

@@ -1,29 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Michroma&display=swap');
+
 .profile
 {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px;
-    flex-wrap: wrap;
+    padding: 70px;
     font-size: 24px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
-.profile-details
+/* .profile-details
 {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
-.profile-details > p
+.profile-details > .p1
 {
     color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+
+.profile-details > .p2
+{
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    font-family: "eurostile", sans-serif;
+    font-weight: 800;
+    padding: 20px;
 }
 
 .profile-details > .p3
 {
     color: rgba(79, 79, 79, 0.717);
+    font-size: 18px;
 }
 
 .profile-details span
@@ -35,13 +51,13 @@
 {
     display: flex;
     justify-content: center;
-
+    padding: 50px 0px;
 }
 .profile-image > img
 {
-    width: 370px;
+    width: 200px;
     align-items: center;
-    border: 3px double blue;
+    border: 2px solid blue;
     background-color: white;
     border-radius: 50%;
     padding: 20px;

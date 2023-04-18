@@ -5,7 +5,7 @@ import "./Header.css"
 const Header = () => {
     return(
         <>
-            <ul>
+            <ul className="navMenu">
                 <Link to="/" style={{ textDecoration: 'none' }}>
                 <li><i class="fa-solid fa-house"></i>Home</li>
                 </Link>
@@ -24,7 +24,7 @@ const Header = () => {
                 <Link to="/contact" style={{ textDecoration: 'none' }}>
                     <li><i class="fa-solid fa-envelope"></i>Contact Us</li>
                 </Link>
-                
+                <div class="dot"></div>
             </ul>
         </>
     )
