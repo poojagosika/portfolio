@@ -11,7 +11,7 @@ const Contact = () => {
                 <input type="text" placeholder="Enter Your Email"/>
                 <label text="text">Message</label>
                 <input type="text" placeholder="Enter Your Message" className="message-box"/>
-                <button className="button"><a href="mailto:pooja.gosika@gmail.com">Submit</a></button>
+                <button className="contact-button"><a href="mailto:pooja.gosika@gmail.com">Submit</a></button>
             </form>
         </div>
     )

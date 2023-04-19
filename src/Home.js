@@ -6,10 +6,9 @@ const Home = () => {
             <div className="profile-details">
                 <p className='p1'>Hello 🖖</p>
                 <p className='p2'>I'm <span>Pooja Gosika,</span> Frontend Developer</p>
-                <p className='p3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Molestias aspernatur incidunt eligendi expedita doloribus maiores distinctio,
-                    pariatur dolores deleniti dignissimos, harum autem ratione ad? Reprehenderit,
-                    nemo! At possimus error voluptatum?
+                <p className='p3'>
+                   I have Diverse set of skills in the field of Development. I'm quiet loyal and
+                    passionate at my work and Design.
                 </p>
             </div>
             <div className="profile-image">
