@@ -12,7 +12,7 @@ const Header = () => {
                 </div>
                 <div className="navbar-menu-contents">
                     <Link to="/" style={{ textDecoration: 'none' }}/>
-                    <Link to="/home" style={{ textDecoration: 'none' }}>
+                    <Link to="/portfolio" style={{ textDecoration: 'none' }}>
                     <li><i class="fa-solid fa-house"></i>Home</li>
                     </Link>
                     <Link to="/about" style={{ textDecoration: 'none' }}>
