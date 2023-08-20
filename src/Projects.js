@@ -16,7 +16,7 @@ const Projects = () => {
                         This App is made up of HTML, CSS, JS, React JS and OpenWeather API. Also used React Hooks
                         in the building of this process.
                     </p>
-                    <button><a href="https://poojagosika.github.io/calculator/" target="#">Live Demo</a></button>
+                    <button><a href="https://poojagosika.github.io/react-weather-app/" target="#">Live Demo</a></button>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ const Projects = () => {
                         performed. This App is 100% responsive and gives instant results without causing
                         overloading of the web page.
                     </p>
-                    <button><a href="https://poojagosika.github.io/react-weather-app/" target="#">Live Demo</a></button>
+                    <button><a href="https://poojagosika.github.io/calculator/" target="#">Live Demo</a></button>
                 </div>
             </div>
 
